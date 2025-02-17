@@ -47,7 +47,7 @@ with st.sidebar:
                         messages=[{
                             'role': 'user',
                             'content': """
-                                Analise o texto na imagem fornecida. O documento pode ser um RG (Registro Geral), CNH (Carteira Nacional de Habilitação) ou outro documento similar. Extraia as seguintes informações, caso estejam presentes, e organize-as de forma estruturada. Os documentos podem ser RG, CNH, certidão de nascimento, casamento, de óbito ou outro. Os dados estão sob as chaves:
+                                Analise o texto na imagem fornecida. Extraia os seguintes datapoints, caso estejam presentes, e organize-as de forma estruturada. Os documentos podem ser RG, CNH, certidão de nascimento, casamento, de óbito ou outro. Os dados estão sob as chaves:
 
                                 Nome (se identificar)
                                 Data de nascimento (se identificar)
